@@ -1,0 +1,71 @@
+
+.red_class {
+    background-color: #B02B26;
+    color: white;
+
+  }
+  
+body{
+background-color: aquamarine;
+}
+.radio-group input[type="radio"] {
+    appearance: none;
+    -webkit-appearance: none;
+    -moz-appearance: none;
+    width: 16px;
+    height: 16px;
+    border-radius: 50%;
+    border: 2px solid #B02B26;
+    outline: none;
+    margin-right: 8px;
+    vertical-align: middle;
+  }
+  
+  .radio-group input[type="radio"]:checked {
+    background-color: #B02B26;
+  }
+  
+  .radio-group label {
+    display: inline-block;
+    margin-right: 16px;
+    font-size: 1.5rem;
+  }
+  
+  .form-control {
+    border-radius: 0;
+  }
+  
+  
+  
+  /*payment page */
+.payment a{
+text-decoration: none;
+color: #B02B26;
+}
+/* .remove-link{
+    text-decoration: none;
+    color: #B02B26;
+    text-align: end;
+} */
+.list-group-item {
+    display: flex;
+    align-items: center;
+  }
+  
+  .remove-link {
+    margin-left: auto;
+    color: #B02B26;
+    text-decoration: none;
+  }
+  
+  .form-row {
+    display: flex;
+  }
+  
+  .form-row > .form-control,
+  .form-row > .form-select,
+  .form-row > .form-floating {
+    flex: 1;
+ }
+  
+  
